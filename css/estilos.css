@@ -1,7 +1,43 @@
-.bm a{
-	color: #3294c3;
-	padding: 15px;
-	font-size: 25px;
-	padding-top: 50px;
-	font-family: 'Merriweather', serif;
+.navbar a{
+	font-size: 22px;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.hamburger {
+    min-height: 30px;
+    max-width: 50px;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    background-color: #006faf;
+    position: absolute;
+    width: 35px;
+    height: 5px;
+    border-radius: 4px;
+    content: '';
+    transition-timing-function: ease;
+    transition-duration: .3s;
+    transition-property: transform,opacity;
+}
+.hamburger-inner:before {
+    top: 10px;
+}
+.hamburger-inner:after {
+    top: 20px;
+}
+
+.hamburger.open .hamburger-inner {
+    transform: translate3d(0,10px,0) rotate(45deg);
+}
+.hamburger.open .hamburger-inner:after {
+    transform: translate3d(0,-20px,0) rotate(-90deg);
+}
+.hamburger.open .hamburger-inner:before {
+    transform: translate3d(0,-12px,0) rotate(90deg);
+}
+
+@media only screen and (max-width: 1024px) {
+.hamburguer{
+display:none;
+}
 }
