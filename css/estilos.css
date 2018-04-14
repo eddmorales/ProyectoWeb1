@@ -1,9 +1,30 @@
+/*Menu de navegación*/
 .navbar a{
 	font-size: 22px;
 	font-family: 'Roboto Slab', serif;
 }
 
+/*Estilos para el separador 1*/
+#separador1{
+	height: 250px;
+	background-color: #3294c3;
+}
+/*Estilos para frase motivadora 1*/
+#fraseMotivadora{
+	padding-top: 70px;
+	font-size: 40px;
+	color: #61595c;
+	font-family: 'Roboto Slab', serif;
+}
 
+
+
+
+
+
+
+
+/*Estilos para el posible menu de hamburguesa*/
 .hamburger {
     min-height: 30px;
     max-width: 50px;
@@ -36,8 +57,3 @@
     transform: translate3d(0,-12px,0) rotate(90deg);
 }
 
-@media only screen and (max-width: 1024px) {
-.hamburguer{
-display:none;
-}
-}
