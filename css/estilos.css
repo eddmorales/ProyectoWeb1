@@ -1,6 +1,7 @@
 /*Menu de navegación*/
 .navbar a{
-	font-size: 22px;
+	margin-top: 10px;
+	font-size: 20px;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -17,6 +18,24 @@
 	font-family: 'Roboto Slab', serif;
 }
 
+/*Estilos para ¿Quien soy?*/
+#quien_soy{
+	margin-top: 40px;
+}
+#centrado{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 2px solid grey;
+	padding: 0;
+	border-radius: 800px;
+	overflow: hidden;
+}
+
+/*Estilos para carousel*/
+#carouselExampleIndicators{
+	margin-top: 15px;
+}
 
 
 
