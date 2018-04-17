@@ -6,16 +6,9 @@
 }
 
 /*Estilos para el separador 1*/
-#separador1{
+#trabajoProfesional{
 	height: 250px;
 	background-color: #3294c3;
-}
-/*Estilos para frase motivadora 1*/
-#fraseMotivadora{
-	padding-top: 70px;
-	font-size: 40px;
-	color: #61595c;
-	font-family: 'Roboto Slab', serif;
 }
 
 /*Estilos para ¿Quien soy?*/
