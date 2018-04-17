@@ -30,8 +30,10 @@
 	margin-top: 15px;
 }
 
-
-
+/*Estilos para clientes en escala de grises*/
+.filtro{
+	filter: grayscale(100%);
+}
 
 
 
