@@ -54,7 +54,6 @@
 /*Estilos para iconos de redes sociales*/
 .iconos{
 	color: white;
-	margin-left: 50px;
 }
 
 /*Estilos para los derechos reservados*/
@@ -63,44 +62,6 @@
 	color: white;
 	margin-top: 20px;
 }
-
-
-
-
-
-/*Estilos para el posible menu de hamburguesa*/
-.hamburger {
-    min-height: 30px;
-    max-width: 50px;
-}
-.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
-    background-color: #006faf;
-    position: absolute;
-    width: 35px;
-    height: 5px;
-    border-radius: 4px;
-    content: '';
-    transition-timing-function: ease;
-    transition-duration: .3s;
-    transition-property: transform,opacity;
-}
-.hamburger-inner:before {
-    top: 10px;
-}
-.hamburger-inner:after {
-    top: 20px;
-}
-
-.hamburger.open .hamburger-inner {
-    transform: translate3d(0,10px,0) rotate(45deg);
-}
-.hamburger.open .hamburger-inner:after {
-    transform: translate3d(0,-20px,0) rotate(-90deg);
-}
-.hamburger.open .hamburger-inner:before {
-    transform: translate3d(0,-12px,0) rotate(90deg);
-}
-
 
 /*Media queries para logo*/
 @media (max-width: 425px){
