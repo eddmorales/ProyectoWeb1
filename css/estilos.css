@@ -1,3 +1,17 @@
+
+.titulo{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #aba7a2;
+}
+.parrafo{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+
+.tam{
+	font-size: 20px;
+}
+
 /*Menu de navegación*/
 .navbar a{
 	margin-top: 10px;
@@ -6,14 +20,11 @@
 }
 
 /*Estilos para el separador 1*/
-#trabajoProfesional{
-	height: 250px;
-	background-color: #3294c3;
-}
+
 
 /*Estilos para ¿Quien soy?*/
 #quien_soy{
-	margin-top: 40px;
+	
 }
 #centrado{
 	margin-left: auto;
@@ -25,6 +36,11 @@
 	overflow: hidden;
 }
 
+.tipo{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+}
+
 /*Estilos para carousel*/
 #carouselExampleIndicators{
 	margin-top: 15px;
@@ -34,6 +50,20 @@
 .filtro{
 	filter: grayscale(100%);
 }
+
+/*Estilos para iconos de redes sociales*/
+.iconos{
+	color: white;
+	margin-left: 50px;
+}
+
+/*Estilos para los derechos reservados*/
+#copyright{
+	font-size: 18px;
+	color: white;
+	margin-top: 20px;
+}
+
 
 
 
@@ -71,3 +101,29 @@
     transform: translate3d(0,-12px,0) rotate(90deg);
 }
 
+
+/*Media queries para logo*/
+@media (max-width: 425px){
+	.navbar-brand{
+		margin-bottom: 15px;
+	}
+}
+@media (min-width: 425px) and (max-width: 426px){
+	.navbar-brand{
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 768px){
+	.navbar-brand{
+		margin-left: 200px;
+	}
+}
+
+/*Media queries para menu de navegación*/
+@media(min-width: 1024px){
+	#listadenavegacion{
+		margin-left: 50px;
+	}
+}
