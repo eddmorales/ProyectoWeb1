@@ -101,3 +101,14 @@
 
 /*ESTILOS PARA ENTRENAMIENTO*/
 
+.acordeon{
+	color: #493E3E;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 25px
+
+}
+.conte{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #aba7a2;
+	font-size: 20px;
+}
