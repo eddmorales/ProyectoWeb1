@@ -92,6 +92,28 @@
 		margin-left: 50px;
 	}
 }
+@media(max-width: 320px){
+	#logoChris{
+		width: 250px;
+		height: auto;
+		margin-left: 15px;
+		margin-bottom: 35px;
+	}
+}
+@media(min-width: 375px) and (max-width: 376px){
+	#logoChris{
+		margin-bottom: 35px;
+		margin-left: 35px;
+		width: 270px;
+		height: auto;
+	}
+}
+@media(min-width: 425px) and (max-width: 426px){
+	#logoChris{
+		width: 250px;
+		margin-right: 30px;
+	}
+}
 
 /*HASTA AQUI, ESTILOS PARA INDEX*/
 
