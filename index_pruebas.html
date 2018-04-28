@@ -16,35 +16,40 @@
 	MENU DE NAVEGACION
 	-->	
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-		<div class="container-fluid">
-			<a href="#" class="navbar-brand">
-				<img src="img/logo christian ayala.png" alt="Logo Christian Ayala" class="img-fluid" width="280" height="auto" id="logoChris">
-			</a>
-			<button id="botonnav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de navegación">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbar">
-				<ul class="navbar-nav ml-auto titulo2"  style="font-size: 19px">
-					<li class="links nav-item">
-						<a href="#" class="nav-link">¿Quién es Christian Ayala?</a>
-					</li>
-					<li class=" links nav-item">
-						<a href="#" class="nav-link">Entrenamiento vivencial motivacional</a>
-					</li>
-					<li class="links nav-item">
-						<a href="#" class="nav-link">Nuestros clientes</a>
-					</li>
-					<li class="links nav-item">
-						<a href="#" class="nav-link">Labor social</a>
-					</li>
-					<li class="links nav-item">
-						<a href="#" class="nav-link">Contacto</a>
-					</li>
-				</ul>			
-			</div>
-		</div>
-	</nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<a class="navbar-brand" href="#">
+  			<img src="img/logo christian ayala.png" width="250px" alt="">
+  		</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 
 	<!--
 	CAROUSEL
@@ -60,35 +65,35 @@
 	  </ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="img-fluid tam" src="img/index/Nadando.jpg" alt="First slide">
+	      <img class="img-fluid" src="img/index/Nadando.jpg" alt="First slide">
 	      	<div class="carousel-caption d-none d-md-block">
 	      		<h5>Lorem ipsum dolor sit amet</h5>
 	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
 	      	</div>
 	    </div>
 	    <div class="carousel-item">
-	      <img class="img-fluid tam" src="img/index/conferencia.jpg" alt="Second slide">
+	      <img class="img-fluid" src="img/index/conferencia.jpg" alt="Second slide">
 	      <div class="carousel-caption d-none d-md-block">
 	      		<h5>Lorem ipsum dolor sit amet</h5>
 	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
 	      	</div>
 	    </div>
 	    <div class="carousel-item">
-	      <img class="img-fluid tam" src="img/index/Nueva-Esperanza.jpg" alt="Third slide">
+	      <img class="img-fluid" src="img/index/Nueva-Esperanza.jpg" alt="Third slide">
 	      <div class="carousel-caption d-none d-md-block">
 	      		<h5>Lorem ipsum dolor sit amet</h5>
 	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
 	      	</div>
 	    </div>
 	    <div class="carousel-item">
-	      <img class="img-fluid tam" src="img/index/Entrenamiento2.jpg" alt="Fourth slide">
+	      <img class="img-fluid" src="img/index/Entrenamiento2.jpg" alt="Fourth slide">
 	      <div class="carousel-caption d-none d-md-block">
 	      		<h5>Lorem ipsum dolor sit amet</h5>
 	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
 	      	</div>
 	    </div>
 	    <div class="carousel-item">
-	      <img class="img-fluid tam" src="img/index/Nadando2.jpg" alt="Fifth slide">
+	      <img class="img-fluid" src="img/index/Nadando2.jpg" alt="Fifth slide">
 	      <div class="carousel-caption d-none d-md-block">
 	      		<h5>Lorem ipsum dolor sit amet</h5>
 	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
@@ -110,15 +115,15 @@
 	-->
 	<div class="container-fluid" id="quien_soy" style="background-color: #E5E3E2;">
 		<div class="row justify-content-around">
-			<div class="columna col-12 col-lg-6">
-					<img class="img-fluid" id="centrado" src="img/index/Portada.jpg" alt="Christian Ayala">
-					<h1 class="text-center titulo2" style="margin-top: 20px; margin-bottom: 50px;"><strong>Christian Ayala</strong></h1>
+			<div class="columna col-12 col-md-6">
+					<img class="img-fluid" id="centrado" src="img/index/Portada.jpg" alt="Christian Ayala" style="margin-top: 50px; width: 300px; height: 300px">
+					<h2 class="text-center" style="margin-top: 20px; margin-bottom: 50px; color: #4e4e4e">Christian Ayala</h2>
 			</div>
-			<div class="columna col-12 col-lg-6" id="col-coach">
+			<div class="columna col-12 col-md-6" style="margin-top: 100px;">
 				<h3 class="text-center titulo" style="margin-bottom: 15px; font-size: 40px; color: #4e4e4e"><strong>Coaching y entrenamiento vivencial</strong></h3>
-				<p class="tipo text-justify titulo2" id="parra-coach">Christian Ayala Espinosa es un joven padre y esposo, ingeniero civil de profesión, entrenador vivencial y altruista por vocación, que busca coronar toda una vida de logros deportivos haciendo que estos trasciendan más allá de las marcas personales y las medallas, habiéndose convertido en el 9no mexicano en conquisar la Triple Corona de Aguas Abiertas y el 1ero en la historia en hacerlo por una causa puramente altruista.</p>
+				<p class="tipo text-justify" style="color: #aba7a2;">Christian Ayala Espinosa es un joven padre y esposo, ingeniero civil de profesión, entrenador vivencial y altruista por vocación, que busca coronar toda una vida de logros deportivos haciendo que estos trasciendan más allá de las marcas personales y las medallas, habiéndose convertido en el 9no mexicano en conquisar la Triple Corona de Aguas Abiertas y el 1ero en la historia en hacerlo por una causa puramente altruista.</p>
 				<a href="#">
-					<h5 class="titulo2" style="margin-top: 35px; font-size: 30px; margin-bottom: 40px">Conoce más...</h5>
+					<h5 style="color: white">Conoce más...</h5>
 				</a>
 			</div>
 		</div>
@@ -135,22 +140,22 @@
 	<div class="container-fluid" style="background-image: url(img/mar1.jpg);">
 		<div class="row" style="margin: 0">
 			<div class="col-12">
-				<h2 class="text-center parrafo" style="margin-bottom: 20px; margin-top: 40px; font-size: 55px;">Testimonios</h2>
+				<h2 class="text-center parrafo" style="margin-bottom: 20px; margin-top: 40px; font-size: 60px;">Testimonios</h2>
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-12 col-md-6" style="margin-bottom: 50px; margin-top: 15px;">
-					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1500">
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <h2 class="text-center parrafo tes-tam" style="font-size: 30px">Testimonio 1</h2>
+					      <h2 class="text-center parrafo" style="font-size: 30px">Testimonio 1</h2>
 					      <p class="text-center parrafo tam">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem rerum obcaecati, perspiciatis assumenda doloremque earum. Quae, blanditiis! Esse nostrum quod assumenda, harum autem tempora. Placeat alias</p>
 					    </div>
 					    <div class="carousel-item">
-					      <h3 class="text-center parrafo tes-tam" style="font-size: 30px">Testimonio 2</h3>
+					      <h3 class="text-center parrafo" style="font-size: 30px">Testimonio 2</h3>
 					      <p class="text-center parrafo tam">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis ex recusandae alias nihil nostrum totam quos voluptatibus libero qui ipsam sed a sint aliquid rerum, deleniti aut, repellat similique.</p>
 					    </div>
 					    <div class="carousel-item">
-					      <h3 class="text-center parrafo tes-tam" style="font-size: 30px">Testimonio 3</h3>
+					      <h3 class="text-center parrafo" style="font-size: 30px">Testimonio 3</h3>
 					      <p class="text-center parrafo tam">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut labore sint adipisci eum, neque totam numquam eaque harum officia odio, incidunt, provident eveniet reprehenderit assumenda sequi sunt ex. Recusandae.</p>
 					    </div>
 					  </div>
@@ -173,35 +178,39 @@
 
 			    	<div class="row justify-content-around">
 			    		<div class="col-3 col-md-2">
-			    			<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/ASTRAL LOGO.png" alt="Cliente 3" style="width: 120px; height: 70px;">
+			    			<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/ACUÁTICA DEPORTE Y SALUD.png" alt="Cliente 1">
+			    		</div>
+			    		<div class="col-3 col-md-2">
+			    			<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/ALPHA FUNDACIÓN.png" alt="Cliente 2">
+			    		</div>
+			    		<div class="col-3 col-md-2">
+			    			<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/ANROD.png" alt="Cliente 3">
 			    		</div>	
 			   			<div class="col-3 col-md-2">
-			   				<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/cench.png" alt="Cliente 4" style="width: 120px; height: 70px;">
+			   				<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/colegio ada.png" alt="Cliente 4">
 			   			</div>
-			   			<div class="col-3 col-md-2">
-			   				<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/CINCO RADIO.png" alt="Cliente 5" style="width: 120px; height: 70px;">
-			   			</div>
-			   			<div class="col-3 col-md-2">
-			   				<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/El-Sol-de-Puebla-logo.png" alt="Cliente 5" style="width: 120px; height: 70px;">
-			   			</div>
+			   			
+			   			
 			    	</div>
 			      
 			    </div>
+			    
 			    <div class="carousel-item">
 			     	<div class="row justify-content-around">
-			    		<div class="col-3 col-md-2">
-			    			<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/Britania.png" alt="Cliente 1" style="width: 120px; height: 70px;">
-			    		</div>
-			    		<div class="col-3 col-md-2">
-			    			<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/ALPHA FUNDACIÓN.png" alt="Cliente 2" style="width: 120px; height: 70px;">
-			    		</div>
+			    		
 			    		<div class="col-3 col-md-2">
 			    			<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/ASTRAL LOGO.png" alt="Cliente 3" style="width: 120px; height: 70px;">
 			    		</div>	
 			   			<div class="col-3 col-md-2">
 			   				<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/AISA DE PUEBLA.png" alt="Cliente 4" style="width: 120px; height: 70px;">
 			   			</div>
-			    	</div>
+			   			<div class="col-3 col-md-2">
+			   				<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/Britania.png" alt="Cliente 5" style="width: 120px; height: 70px;">
+			   			</div>
+			   			<div class="col-3 col-md-2">
+			   				<img class="d-block filtro img-fluid" src="img/clientes/LOGOS PNG/Britania.png" alt="Cliente 5" style="width: 120px; height: 70px;">
+			   			</div>
+			    	</div> 
 			    </div>
 			  </div>
 			</div>

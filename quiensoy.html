@@ -1,4 +1,4 @@
-	<!doctype html>
+<!doctype html>
 <html>
 	<head>
 		<title>Christian Ayala</title>
@@ -211,13 +211,75 @@
 			<div class="col-12 col-md-5">
 				<h2 class="titulo2" style="margin-bottom: 30px; margin-top: 10px">La conquista de la triple corona</h2>
 				<ul>
-					<li><a class="titulo2" href="#" style="font-size: 30px"> Reto 1: <span style="color: #aba7a2; font-size: 29px">Canal de la mancha</span></a></li>
-					<li><a class="titulo2" href="#" style="font-size: 30px"> Reto 2: <span style="color: #aba7a2; font-size: 29px">Canal de Catalina</span></a></li>
-					<li><a class="titulo2" href="#" style="font-size: 30px"> Reto 3: <span style="color: #aba7a2; font-size: 29px">La vuelta a Manhattan</span></a></li>
+					<li>
+						<a class="titulo2" data-toggle="modal" href=".canalDeLaMancha" style="font-size: 30px"> Reto 1: <span style="color: #aba7a2; font-size: 29px">Canal de la mancha</span></a>
+					</li>
+					<li><a class="titulo2" data-toggle="modal" href=".canalDeCatalina" style="font-size: 30px"> Reto 2: <span style="color: #aba7a2; font-size: 29px">Canal de Catalina</span></a></li>
+					<li><a class="titulo2" data-toggle="modal" href=".vueltaManhattan" style="font-size: 30px"> Reto 3: <span style="color: #aba7a2; font-size: 29px">La vuelta a Manhattan</span></a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
+
+<div class="modal fade canalDeLaMancha" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">El canal de la mancha</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        EL CANAL DE LA MANCHA
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".canalDeCatalina .canalDeLaMancha">Siguiente reto</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade canalDeCatalina" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">El canal de Catalina</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        EL CANAL DE CATALINA
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".vueltaManhattan">Siguiente reto</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade vueltaManhattan" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Vuelta Manhattan</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        VUELTA A MANHATTAN
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".canalDeLaMancha">Siguiente reto</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 	<!--Separador con frase motivacional-->
 	<div class="container-fluid" style="background-color: #006faf">
