@@ -12,119 +12,83 @@
 	</head>
 	<body>
 
-<!--
-	Menu de navegación
--->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-			<div class="container-fluid">
-				<a href="#" class="navbar-brand">
-					<img src="img/logo christian ayala.png" alt="" class="img-fluid" width="350" height="auto" id="logoChris">
-				</a>
-				<button id="botonnav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de navegación">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbar">
-					<ul class="navbar-nav" id="listadenavegacion">
-						<li class="links nav-item">
-							<a href="#" class="nav-link">¿Quién es Christian Ayala?</a>
-						</li>
-						<li class=" links nav-item">
-							<a href="#" class="nav-link">Entrenamiento vivencial motivacional</a>
-						</li>
-						<li class="links nav-item">
-							<a href="#" class="nav-link">Nuestros clientes</a>
-						</li>
-						<li class="links nav-item">
-							<a href="#" class="nav-link">Contacto</a>
-						</li>
-					</ul>			
-				</div>
+<!-- Menu de navegación -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand">
+				<img src="img/logo christian ayala.png" alt="Logo Christian Ayala" class="img-fluid" width="280" height="auto" id="logoChris">
+			</a>
+			<button id="botonnav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de navegación">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto titulo2"  style="font-size: 19px">
+					<li class="links nav-item">
+						<a href="#" class="nav-link">¿Quién es Christian Ayala?</a>
+					</li>
+					<li class=" links nav-item">
+						<a href="#" class="nav-link">Entrenamiento vivencial motivacional</a>
+					</li>
+					<li class="links nav-item">
+						<a href="#" class="nav-link">Nuestros clientes</a>
+					</li>
+					<li class="links nav-item">
+						<a href="#" class="nav-link">Labor social</a>
+					</li>
+					<li class="links nav-item">
+						<a href="#" class="nav-link">Contacto</a>
+					</li>
+				</ul>			
 			</div>
-		</nav>
+		</div>
+	</nav>
 
-<!--
-	Carrusel
--->
-	<div id="carouselInicial" class="carousel slide" data-ride="carousel">
+<!-- Carrusel -->
+	<div id="carouselInicial" class="carousel slide" data-ride="carousel" data-interval="2000">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselInicial" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselInicial" data-slide-to="1"></li>
 	    <li data-target="#carouselInicial" data-slide-to="2"></li>
-	    <li data-target="#carouselInicial" data-slide-to="3"></li>
-	    <li data-target="#carouselInicial" data-slide-to="4"></li>
 	  </ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="img-fluid" src="http://lorempixel.com/1920/800/" alt="First slide">
-	      	<div class="carousel-caption d-none d-md-block">
-	      		<h5>Lorem ipsum dolor sit amet</h5>
-	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
-	      	</div>
+	      <img class="img-fluid img-qs" src="img/quiensoy/Aguas Abiertas 3.jpg" alt="First slide">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="img-fluid" src="http://lorempixel.com/1920/800/" alt="Second slide">
-	      <div class="carousel-caption d-none d-md-block">
-	      		<h5>Lorem ipsum dolor sit amet</h5>
-	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
-	      	</div>
+	      <img class="img-fluid img-qs" src="img/quiensoy/Nueva Espe.jpg" alt="Second slide">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="img-fluid" src="http://lorempixel.com/1920/800/" alt="Third slide">
-	      <div class="carousel-caption d-none d-md-block">
-	      		<h5>Lorem ipsum dolor sit amet</h5>
-	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
-	      	</div>
-	    </div>
-	    <div class="carousel-item">
-	      <img class="img-fluid" src="http://lorempixel.com/1920/800/" alt="Fourth slide">
-	      <div class="carousel-caption d-none d-md-block">
-	      		<h5>Lorem ipsum dolor sit amet</h5>
-	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
-	      	</div>
-	    </div>
-	    <div class="carousel-item">
-	      <img class="img-fluid" src="http://lorempixel.com/1920/800/" alt="Fifth slide">
-	      <div class="carousel-caption d-none d-md-block">
-	      		<h5>Lorem ipsum dolor sit amet</h5>
-	      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sunt esse et a, dolore placeat dolores quam velit.</p>
-	      	</div>
+	      <img class="img-fluid img-qs" src="img/quiensoy/Aguas Abiertas.jpg" alt="Third slide">
 	    </div>
 	  </div>
-	  <a class="carousel-control-prev" href="#carouselInicial" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselInicial" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
 	</div>
 
 
 	
 	<!--Parte del origen de christian-->
-	<div class="container-fluid" style="margin-bottom: 50px; margin-top: 90px">
+	<div class="container-fluid" style="margin-bottom: 50px; margin-top: 60px">
 		<div class="row">
-			<div class="col-12 col-md-7">
+			<div class="col-12 col-lg-7">
 				<h1 class="titulo2" style="margin-bottom: 40px">El origen de Christian</h1>
 				<!-- Nav tabs -->
-		<ul class="nav nav-tabs" id="myTab" role="tablist">
-		  <li class="nav-item">
-		    <a class="nav-link active titulo2" id="home-tab" data-toggle="tab" href="#parte1" role="tab" aria-controls="home" aria-selected="true" style="font-size: 22px">Parte 1</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link titulo2" id="profile-tab" data-toggle="tab" href="#parte2" role="tab" aria-controls="profile" aria-selected="false" style="font-size: 22px">Parte 2</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link titulo2" id="messages-tab" data-toggle="tab" href="#parte3" role="tab" aria-controls="messages" aria-selected="false" style="font-size: 22px">Parte 3</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link titulo2" id="settings-tab" data-toggle="tab" href="#parte4" role="tab" aria-controls="settings" aria-selected="false" style="font-size: 22px">Parte 4</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link titulo2" id="settings-tab" data-toggle="tab" href="#parte5" role="tab" aria-controls="settings" aria-selected="false" style="font-size: 22px">Parte 5</a>
-		  </li>
-		</ul>
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+				  <li class="nav-item">
+				    <a class="nav-link active titulo2 tamlinks" id="home-tab" data-toggle="tab" href="#parte1" role="tab" aria-controls="home" aria-selected="true">Parte 1</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link titulo2 tamlinks" id="profile-tab" data-toggle="tab" href="#parte2" role="tab" aria-controls="profile" aria-selected="false">Parte 2</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link titulo2 tamlinks" id="messages-tab" data-toggle="tab" href="#parte3" role="tab" aria-controls="messages" aria-selected="false">Parte 3</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link titulo2 tamlinks" id="settings-tab" data-toggle="tab" href="#parte4" role="tab" aria-controls="settings" aria-selected="false">Parte 4</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link titulo2 tamlinks" id="settings-tab" data-toggle="tab" href="#parte5" role="tab" aria-controls="settings" aria-selected="false">Parte 5</a>
+				  </li>
+				</ul>
+
 
 		<!-- Tab panes -->
 		<div class="tab-content">
@@ -208,129 +172,185 @@
 		  </div>
 		</div>
 			</div>
-			<div class="col-12 col-md-5">
+			<div class="col-12 col-lg-5">
 				<h2 class="titulo2" style="margin-bottom: 30px; margin-top: 10px">La conquista de la triple corona</h2>
 				<ul>
 					<li>
-						<a class="titulo2" data-toggle="modal" href=".canalDeLaMancha" style="font-size: 30px"> Reto 1: <span style="color: #aba7a2; font-size: 29px">Canal de la mancha</span></a>
+						<a class="titulo2" href="#" style="font-size: 30px"> Reto 1: <span style="color: #aba7a2; font-size: 29px">Canal de la mancha</span></a>
 					</li>
-					<li><a class="titulo2" data-toggle="modal" href=".canalDeCatalina" style="font-size: 30px"> Reto 2: <span style="color: #aba7a2; font-size: 29px">Canal de Catalina</span></a></li>
-					<li><a class="titulo2" data-toggle="modal" href=".vueltaManhattan" style="font-size: 30px"> Reto 3: <span style="color: #aba7a2; font-size: 29px">La vuelta a Manhattan</span></a></li>
+					<li><a class="titulo2"  href="#" style="font-size: 30px"> Reto 2: <span style="color: #aba7a2; font-size: 29px">Canal de Catalina</span></a></li>
+					<li><a class="titulo2" href="#" style="font-size: 30px"> Reto 3: <span style="color: #aba7a2; font-size: 29px">La vuelta a Manhattan</span></a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 
-<div class="modal fade canalDeLaMancha" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">El canal de la mancha</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        EL CANAL DE LA MANCHA
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".canalDeCatalina .canalDeLaMancha">Siguiente reto</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade canalDeCatalina" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">El canal de Catalina</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        EL CANAL DE CATALINA
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".vueltaManhattan">Siguiente reto</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade vueltaManhattan" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Vuelta Manhattan</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        VUELTA A MANHATTAN
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".canalDeLaMancha">Siguiente reto</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 	<!--Separador con frase motivacional-->
 	<div class="container-fluid" style="background-color: #006faf">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-12 col-lg-4">
 				<img class="img-fluid" id="centrado" src="img/christian.jpg" alt="Christian Ayala" style="margin-bottom: 40px; margin-top: 60px; width: 300px; height: 300px">
 			</div>
-			<div class="col-6">
-				<p class="titulo" style="font-size: 40px; margin-top: 100px">"No existe una lista de pasos para lograr tus sueños, es un proceso que se vive día a día"</p>
+			<div class="col-12 col-lg-8">
+				<p class="titulo" id="parra-moti" style="font-size: 35px; margin-top: 100px">"No existe una lista de pasos para lograr tus sueños, es un proceso que se vive día a día"</p>
 			</div>
 		</div>
 	</div>
 
+	<!-- parte de los retos	-->
+	<div class="container-fluid" style="background-color: #EFEFEF">
+		<div class="row justify-content-center">
+			<div>
+				<h1 class="titulo2" style="margin-top: 40px">La conquista de la triple corona</h1>
+			</div>
+		</div>
+		<h3 class="text-center titulo2" style="margin-bottom: 40px; margin-top: 30px">Reto 1: canal de la mancha</h3>
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<p class="text-justify titulo3" style="font-size: 20px"><strong>En el año 2013, Ayala cruzó a nado el Canal de la Mancha comprendido entre Inglaterra y Francia, en un recorrido de 62kms y 17:38hrs. La hazaña fue catalogada como el nado más dramático en los últimos 30 años del Canal, ya que las fuertes corrientes, las lesiones en el hombro izquierdo y la severa hipotermia, casi le arrebata la vida en varias ocasiones. Con esta acción, logró recaudar Un millón de pesos para el Banco de Medicinas Oncologicas de UNE, apoyando al tratamiento de niños de bajos recursos que sufrían de esta terrible enfermedad.</strong></p>
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="row justify-content-center">
+					<div>
+						<img src="img/christian.jpg" class="img-fluid" width="300px" height="300px" alt="">
+						<p>video de canal de la mancha</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h3 class="text-center titulo2" style="margin-bottom: 40px; margin-top: 30px">Reto 2: canal de catalina</h3>
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="col-12">
+					<div class="row justify-content-between">
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>logo yo combato</p>
+						</div>
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>foto de catalina</p>
+						</div>
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>foto une</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="row justify-content-center" style="margin-top: 40px">
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="250px" height="auto" alt="">
+							<p>video canal de catalina</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6">
+				<p class="titulo3" style="font-size: 20px"><strong>Dos años más tarde, el 29 de septiembre de 2015, Christian y su equipo, lograron el cruce exitoso del Canal de Catalina comprendido entre la Isla de Santa Catalina y la Costa de California, en un recorrido de 40 kms y 13:59hrs. El recorrido tuvo complicaciones como un oleaje intenso, corrientes en contra y un encuentro con un tiburón blanco que estuvo a punto de ser fatal.
+				Esta hazaña logró recaudar otro Millón de Pesos para UNE, así continuando con su labor de vida: Combatir el Cáncer Infantil.</strong></p>
+			</div>
+		</div>
+		<h3 class="text-center titulo2" style="margin-bottom: 40px; margin-top: 30px">Reto 3: vuelta a manhattan</h3>
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<p class="titulo3" style="font-size: 20px"><strong>Finalmente, el 20 de agosto de 2017, de la mano del gran entrenador de aguas abiertas Jorge “El Coco” Villegas, el Dr. Juan Manuel Ventura y Vane Ayala, esposa de Christian, se conquistó la Vuelta a Manhattan en un evento complicado y en sprint, que tuvo una duración pocas veces antes vista de 7:15hrs, nadando a través de casi 46 kms en aguas complicadas, con intenso tráfico marítimo y varias lesiones físicas propias del extenuarte esfuerzo físico.</strong></p>
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="col-12">
+					<div class="row justify-content-between">
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>foto del equipo</p>
+						</div>
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>fotoa del recorrido</p>
+						</div>
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>foto nadando</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<p class="titulo3" style="font-size: 20px"><strong>Con esta acción se pudo recaudar Un millón de pesos más, para UNE, convirtiéndose en el 9no mexicano en lograr la Triple Corona de Aguas Abiertas y el primero en la historia en hacerlo por una causa puramente altruista.</strong></p>
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="col-12">
+					<div class="row justify-content-between">
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>foto en une con cheque</p>
+						</div>
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>lista de nadadores</p>
+						</div>
+						<div>
+							<img src="img/entrenamiento.jpg" class="img-fluid" width="150px" height="auto" alt="">
+							<p>christian wiki aguas abiertas</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- segundo separador con frase motivacional -->
+<div class="container-fluid" style="background-color: #006faf">
+		<div class="row">
+			<div class="col-12 col-lg-8">
+				<p class="titulo" style="font-size: 25px; margin-top: 100px">"Cuando el sueño te pertenece, las leyes de la física desaparecen. El tiempo se vuelve relativo. Ni el día ni la noche representan un obstáculo. Las señales del universo se hacen cada vez más claras. El dolor verdaderamente se convierte en tu mejor aliado. Y cada latido de tu corazón te acerca más y más a eso que otros llaman imposible, pero que  para ti es sólo un día más..."</p>
+			</div>
+			<div class="col-12 col-lg-4">
+				<img class="img-fluid" id="centrado" src="img/christian.jpg" alt="Christian Ayala" style="margin-bottom: 40px; margin-top: 60px; width: 300px; height: 300px">
+			</div>
+		</div>
+</div>
+
+<!-- semblanza -->
 	<div class="container-fluid" style="margin-top: 50px; margin-bottom: 70px">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-12 col-lg-6">
 				<h3 class="titulo2"><strong>Semblanza: </strong></h3>
-				<p class="titulo">-1994 Comienzo en el boxeo amateur a los 12 años de edad.</p>
-				<p class="titulo">-2004 Seleccionado mexicano para las Olimpiadas de Atenas (sin asistir por causas ajenas a su voluntad).</p>
-				<p class="titulo">-2009 Comienza la preparación en aguas abiertas.</p>
-				<p class="titulo">-2013 Cruce a nado del Canal de la Mancha con un trayecto pronosticado de 11 horas y 31 km, terminándolo por la marea alta, baja temperatura y contracorrientes en 62 km y casi 18 horas de nado continuo. Este es el reto considerado como el más complicado y peligroso del mundo. Más gente logra el Everest que los que conquistan en nado solitario el Canal de la Mancha. Se recaudó 1 millón de pesos para el tratamiento de niños con cáncer.</p>
-				<p class="titulo">-2015 Cruce a nado del Canal de Catalina con un trayecto de casi 14 horas y 40 km. La peculiaridad de este reto era, además de la baja temperatura y las contracorrientes, tenerel temple físico y mental, pues el Canal de Catalina está infestado por tiburones. Se recaudó 1 millón de pesos para el tratamiento de niños con cáncer.</p>
-				<p class="titulo">-2017 Speaker que cierra el evento TEDx Puebla con un éxito rotundo que logró impactar a los 800 asistentes en un aplauso explosivo y con un foro completamente de pie.</p>
-				<p class="titulo">-2017 Nado al rededor de Manhattan con un trayecto de poco más de 7 horas y 45 km. La peculiaridad de este reto era nadar a todavelocidad, pues es un reto a contra tiempo, sólo se tienen 8 horas límite para lograrlo. Se recaudó 1 millón de pesos para el tratamiento de niños con cáncer.</p>
+				<p class="titulo3">-1994 Comienzo en el boxeo amateur a los 12 años de edad.</p>
+				<p class="titulo3">-2004 Seleccionado mexicano para las Olimpiadas de Atenas (sin asistir por causas ajenas a su voluntad).</p>
+				<p class="titulo3">-2009 Comienza la preparación en aguas abiertas.</p>
+				<p class="titulo3">-2013 Cruce a nado del Canal de la Mancha con un trayecto pronosticado de 11 horas y 31 km, terminándolo por la marea alta, baja temperatura y contracorrientes en 62 km y casi 18 horas de nado continuo. Este es el reto considerado como el más complicado y peligroso del mundo. Más gente logra el Everest que los que conquistan en nado solitario el Canal de la Mancha. Se recaudó 1 millón de pesos para el tratamiento de niños con cáncer.</p>
+				<p class="titulo3">-2015 Cruce a nado del Canal de Catalina con un trayecto de casi 14 horas y 40 km. La peculiaridad de este reto era, además de la baja temperatura y las contracorrientes, tenerel temple físico y mental, pues el Canal de Catalina está infestado por tiburones. Se recaudó 1 millón de pesos para el tratamiento de niños con cáncer.</p>
+				<p class="titulo3">-2017 Speaker que cierra el evento TEDx Puebla con un éxito rotundo que logró impactar a los 800 asistentes en un aplauso explosivo y con un foro completamente de pie.</p>
+				<p class="titulo3">-2017 Nado al rededor de Manhattan con un trayecto de poco más de 7 horas y 45 km. La peculiaridad de este reto era nadar a todavelocidad, pues es un reto a contra tiempo, sólo se tienen 8 horas límite para lograrlo. Se recaudó 1 millón de pesos para el tratamiento de niños con cáncer.</p>
 
 			</div>
-			<div class="col-4">
+			<div class="col-12 col-lg-4">
 				<div style="margin-top: 30px">
-					<img src="img/avatar.png" class="img-fluid" width="200" height="auto" alt="avatar" id="centrado" style="margin-left: 150px">
-					<p class="text-center titulo" style="margin-top: 30px; margin-left: 160px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<img src="img/avatar.png" class="img-fluid" width="200" height="auto" alt="avatar" id="centrado">
+					<p class="text-center titulo" style="margin-top: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
 				<div style="margin-top: 70px">
-					<img src="img/avatar.png" class="img-fluid" width="200" height="auto" alt="avatar" id="centrado" style="margin-left: 150px">
-					<p class="text-center titulo" style="margin-top: 30px; margin-left: 160px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<img src="img/avatar.png" class="img-fluid" width="200" height="auto" alt="avatar" id="centrado">
+					<p class="text-center titulo" style="margin-top: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
+<!-- parte de contacto -->
 	<div class="container-fluid" style="background-color: #61595c">
 		<div class="row">
-			<div class="col-8">
+			<div class="col-12 col-lg-8">
 				<h3 class="parrafo" style="margin-top: 50px; margin-bottom: 30px">¿Te gustaría contar con la participación de Christian en tu proximo evento?</h3>
 				<h4 class="parrafo" style="margin-bottom: 50px">Dinos que tienes en mente!</h4>
 			</div>
-			<div class="col-4">
+			<div class="col-12 col-lg-4">
 				<button type="button" class="btn btn-outline-light btn-lg" style="margin-top: 65px; margin-left: 40px">Contáctanos</button>
 			</div>
 		</div>
 	</div>
-
 
 <!--Footer-->
 	<footer style="background-color: #006faf;">
