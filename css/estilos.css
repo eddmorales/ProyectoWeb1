@@ -1,4 +1,22 @@
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ir-arriba{
+	display: inline-block;
+	padding: 5px;
+	font-size: 50px;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.fuente{
+	font-family: 'Roboto Condensed', sans-serif;
+}
 .titulo{
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #aba7a2;
@@ -23,14 +41,15 @@
 	margin-bottom: 25px;
 	margin-top: 20px;
 }
+.nav-tamano{
+	font-size: 18px;
+}
 
 /*Estilos para el separador 1*/
 
 
 /*Estilos para ¿Quien soy?*/
-#quien_soy{
-	
-}
+
 #centrado{
 	margin-top: 50px;
 	margin-left: auto;
@@ -176,6 +195,14 @@
 	#parra-coach{
 		margin-top: 40px;
 	}
+	/*Quien soy*/
+	.tamlinks{
+	font-size: 25px;
+	}
+	.textos-qs{
+		margin-top: 30px;
+		font-size: 25px;
+	}
 }
 
 /*HASTA AQUI, ESTILOS PARA INDEX*/
@@ -196,4 +223,27 @@
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #8C857D;
 	font-size: 20px;
+}
+
+
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: url(img/top.png);
+  background-size: cover;
+}
+
+/*Formulario de contacto*/
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
 }
