@@ -17,6 +17,9 @@
 .fuente{
 	font-family: 'Roboto Condensed', sans-serif;
 }
+.fuente2{
+	font-family: 'Roboto', sans-serif;
+}
 .titulo{
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #aba7a2;
@@ -95,6 +98,11 @@
 	margin-top: 20px;
 }
 
+/*Estilos para página de labor social*/
+.fuente-botones{
+	font-size: 30px;
+}
+
 /*Media queries para logo*/
 
 /*Media queries para menu de navegación*/
@@ -123,6 +131,22 @@
 		text-align: center;
 		margin-bottom: 40px;
 	}
+	/*Labor social*/
+	.fuente-botones{
+		font-size: 20px;
+	}
+	.fuente-texto{
+		font-size: 18px;
+	}
+	#acomodo1{
+		margin-left: 17px;
+	}
+	#acomodo2{
+		margin-left: 8px;
+	}
+	#acomodo3{
+		margin-left: 65px;
+	}
 
 }
 @media(min-width: 375px) and (max-width: 376px){
@@ -140,9 +164,27 @@
 	#parra-coach{
 		margin-top: 40px;
 	}
+
 	/*Quien soy*/
 	.tamlinks{
 	font-size: 12px;
+	}
+
+	/*Labor social*/
+	.fuente-botones{
+		font-size: 22px;
+	}
+	.fuente-texto{
+		font-size: 20px;
+	}
+	#acomodo1{
+		margin-left: 35px;
+	}
+	#acomodo2{
+		margin-left: 25px;
+	}
+	#acomodo3{
+		margin-left: 90px;
 	}
 }
 @media(min-width: 425px) and (max-width: 426px){
@@ -247,3 +289,4 @@
     font-size: 35px;
     color: #36A0FF;
 }
+
