@@ -23,12 +23,3 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 				before: function (anchor, toggle) {}, // Callback to run before scroll
 				after: function (anchor, toggle) {} // Callback to run after scroll
 			});
-
-$(document).ready(function(){
-
-	$('.ir-arriba').click(function(){
-		$('body, html').animate({
-			scrollTop: '0px';
-		});
-	});
-});
