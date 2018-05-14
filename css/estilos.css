@@ -125,7 +125,7 @@
 
 }
 .conte{
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #493E3E;
 	font-size: 20px;
 }
@@ -194,11 +194,21 @@
 		margin-top: 15px;
 	}
 
-/* Entrenamiento */
+	/* Entrenamiento */
 	.icons-clientes{
 		margin-top: 0;
 		margin-left: 120px;
 	}
+	
+	/* CLIENTES */
+	.clientes-pos{
+		margin-left: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
+
 	/*Labor social*/
 	.fuente-botones{
 		font-size: 20px;
@@ -285,8 +295,16 @@
 
 	/* Entrenamiento */
 	.icons-clientes{
-		margin-top: 0;
+		margin-top: 10px;
 		margin-left: 150px;
+	}
+
+	.clientes-pos{
+		margin-left: 70px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
 	}
 
 	/*Labor social*/
@@ -379,6 +397,14 @@
 		margin-top: 0;
 		margin-left: 170px;
 	}
+
+	.clientes-pos{
+		margin-left: 95px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
 	
 	/* LABOR SOCIAL */
 	#acomodo1{
@@ -390,7 +416,12 @@
 	#acomodo3{
 		margin-left: 130px;
 	}
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 175px;
+	}
 }
+
 @media(min-width: 768px){
 	.tam{
 		height: 400px;
@@ -458,6 +489,13 @@
 	.icons-clientes{
 		margin-top: 0;
 		margin-left: 55px;
+	}
+	.clientes-pos{
+		margin-left: 0px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
 	}
 
 	/*Labor social*/
@@ -551,6 +589,14 @@
 		margin-left: 90px;
 	}
 
+	.clientes-pos{
+		margin-left: 0px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 200px;
+		height: auto;
+	}
+
 	/*Labor social*/
 	.fuente-botones{
 		font-size: 20px;
@@ -566,6 +612,10 @@
 	}
 	#acomodo3{
 		margin-left: 30px;
+	}
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 90px;
 	}
 }
 @media(min-width: 1440px){
@@ -592,10 +642,36 @@
 	height: 200px;
 	margin-top: 15px;
 	}
+	.testi-altos{
+	width: 100%;
+	height: 600px;
+	}
 
 	/* Entrenamiento */
 	.icons-clientes{
 		margin-top: 0;
 		margin-left: 140px;
 	}
+	.clientes-pos{
+		margin-left: 0px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 200px;
+		height: auto;
+	}
+
+	/* LABOR SOCIAL */
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 140px;
+	}
+}
+
+@media(min-width: 2560px){
+	
+	/* LABOR SOCIAL */
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 280px;
+	}	
 }

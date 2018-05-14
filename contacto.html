@@ -53,18 +53,18 @@
 
 	<div class="col-12 col-md-6 offset-md-1" style="margin-top: 50px; margin-bottom: 100px">
 		<p class="titulo2" style="font-size: 20px;">¿Tienes un evento y te gustaría la participación de Christian Ayala?</p>
-		<a href="#"><p class="fuente color-azul" style="font-size: 18px; margin-bottom: 40px">Por favor escribenos a este correo!</p></a>
+		<a href="mailto:entrenador@christianayala.com"><p class="fuente color-azul" style="font-size: 18px; margin-bottom: 40px">Por favor escribenos a este correo!</p></a>
 		<p class="titulo2" style="font-size: 20px">O comunicate con nosotros a este número telefónico</p>
 		<button type="button" class="btn btn-primary" disabled style="font-size: 23px">1234567890</button>
 	</div>
 	
 	<hr>
 	<!-- Formulario de contacto -->
-	<div class="row justify-content-center">
+	<div class="row justify-content-center" style="margin: 0">
 		<div class="col-10 col-md-6">
 		<h3 class="text-center titulo2" style="margin-top: 40px; margin-bottom: 40px">A continuación puedes dejarnos un mensaje con tus dudas o comentarios</h3>
 
-		<form class="register" action="" method="post" name="email_form" style="margin-bottom: 40px; margin-top: 30px">
+		<form class="register" action="enviar_mensaje.php" method="post" name="email_form" style="margin-bottom: 40px; margin-top: 30px">
 			<div class="form-group">
 				<small class="form-text text-muted fuente" style="margin-bottom: 20px">Por favor completa todos los campos</small>
 				<label for="nombre" class="fuente color-azul" style="font-size: 18px"><i class="fas fa-user-circle fa-2x"></i> Nombre(s):</label>
@@ -80,7 +80,7 @@
 			</div>
 			<div class="form-group">
 				<label for="comentario" class="fuente color-azul" style="font-size: 18px"><i class="fas fa-edit fa-2x"></i>Comentario:</label>
-				<textarea class="form-control" rows="3" name="comentario" required></textarea>
+				<textarea class="form-control" rows="3" name="comentarios" required></textarea>
 			</div>
 			<button type="submit" class="btn btn-outline-primary btn-block">Enviar</button>
 		</form>
@@ -88,26 +88,26 @@
 	</div>
 
 <!-- FOOTER -->
-<footer style="background-color: #006faf;">
+	<footer style="background-color: #006faf;">
 		<div class="container-fluid">
 			<div class="row justify-content-center" >
 				<div class="col-3 col-md-1 py-3" style="margin-top: 30px;">
-					<a href="#">
+					<a href="https://www.facebook.com/christianayalanadador" target="_blank">
 						<i class="iconos fab fa-facebook-f fa-2x"></i>
 					</a>
 				</div>
 				<div class="col-3 col-md-1 py-3" style="margin-top: 30px;">
-					<a href="#">
+					<a href="https://twitter.com/chayala9" target="_blank">
 						<i class="iconos fab fa-twitter fa-2x"></i>
 					</a>
 				</div>
 				<div class="col-3 col-md-1 py-3" style="margin-top: 30px;">
-					<a href="#">
+					<a href="https://www.instagram.com/chayalanadador/" target="_blank">
 						<i class="iconos fab fa-instagram fa-2x"></i>
 					</a>
 				</div>
 				<div class=" col-3 col-md-1 py-3" style="margin-top: 30px;">
-					<a href="#">
+					<a href="https://www.youtube.com/user/ayalacanaldelamancha" target="_blank">
 						<i class="iconos fab fa-youtube fa-2x"></i>
 					</a>
 				</div>
@@ -118,6 +118,7 @@
 			<p class="text-center"> <i class="far fa-copyright"></i> Christian Ayala. Todos los derechos reservados</p>
 		</div>
 	</footer>
+
 		
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
